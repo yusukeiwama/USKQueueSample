@@ -10,6 +10,7 @@
 		43BFAA0318AB4DE1003E63F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43BFAA0218AB4DE1003E63F1 /* Foundation.framework */; };
 		43BFAA0618AB4DE1003E63F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BFAA0518AB4DE1003E63F1 /* main.m */; };
 		43BFAA0A18AB4DE1003E63F1 /* USKQueueSample.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43BFAA0918AB4DE1003E63F1 /* USKQueueSample.1 */; };
+		43BFAA1218AB4DFA003E63F1 /* USKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BFAA1118AB4DFA003E63F1 /* USKQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		43BFAA0518AB4DE1003E63F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43BFAA0818AB4DE1003E63F1 /* USKQueueSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USKQueueSample-Prefix.pch"; sourceTree = "<group>"; };
 		43BFAA0918AB4DE1003E63F1 /* USKQueueSample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = USKQueueSample.1; sourceTree = "<group>"; };
+		43BFAA1018AB4DFA003E63F1 /* USKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USKQueue.h; sourceTree = "<group>"; };
+		43BFAA1118AB4DFA003E63F1 /* USKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USKQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		43BFAA0418AB4DE1003E63F1 /* USKQueueSample */ = {
 			isa = PBXGroup;
 			children = (
+				43BFAA1018AB4DFA003E63F1 /* USKQueue.h */,
+				43BFAA1118AB4DFA003E63F1 /* USKQueue.m */,
 				43BFAA0518AB4DE1003E63F1 /* main.m */,
 				43BFAA0918AB4DE1003E63F1 /* USKQueueSample.1 */,
 				43BFAA0718AB4DE1003E63F1 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BFAA0618AB4DE1003E63F1 /* main.m in Sources */,
+				43BFAA1218AB4DFA003E63F1 /* USKQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

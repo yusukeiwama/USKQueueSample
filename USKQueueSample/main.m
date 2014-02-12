@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "USKQueue.h"
 
 int main(int argc, const char * argv[])
 {
@@ -14,7 +15,15 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        
+        USKQueue *queue = [USKQueue queueWithCapacity:3];
+        NSLog(@"%@", [queue description]);
+        [queue enqueue:@3];
+        NSLog(@"%@", [queue description]);
+        [queue enqueue:@{@"First": @"Yusuke",
+                         @"Last" : @"Iwama"}];
+        NSLog(@"%@", [queue description]);
+        
         
     }
     return 0;
